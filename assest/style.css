@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Michroma&family=Nata+Sans:wght@100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("/assest/images/background_img.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+
+
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.64;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 78vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 90px;
+
+}
+
+nav img {
+    width: 170px;
+    position: relative;
+    z-index: 10;
+    /* bottom: 525px; */
+}
+
+nav button {
+    position: relative;
+    width: 50px;
+    z-index: 5;
+}
+
+.btn {
+    padding: 9px 5px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: solid 1px;
+    background-color: rgba(229, 225, 225, 0);
+    border-color: rgb(184, 184, 184);
+
+}
+
+.btn-red {
+    color: white;
+    background-color: red;
+    margin-left: 17px;
+    /* width: 80px; */
+    border: none;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 24px;
+    width: 206px;
+    font-size: 25px;
+
+
+}
+
+.starter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.starter input {
+    background-color: rgba(0, 0, 0, 0.648);
+    color: white;
+    font-weight: 500;
+    border: solid 1px;
+    padding: 18px 24px;
+    width: 358px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 238, 238, 0.3);
+
+
+}
+
+.btn img {
+    height: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-selector img,
+.language-selector i {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+}
+
+.language-selector:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative;
+    margin-top: 177px;
+    gap: 12px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+.container {
+    background: linear-gradient(to right, rgb(135, 135, 234), rgb(238, 122, 122));
+    margin-top: 90px;
+    padding: 23px;
+    width: 80%;
+
+
+}
+
+.container .sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: sans-serif;
+    size: 20px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.container img {
+    height: 70px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img {
+    position: relative;
+}
+
+.Img img {
+    width: 40vw;
+
+    /* padding: 0px; */
+    position: relative;
+    z-index: 10;
+
+}
+
+.Img video {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 81px;
+
+}
+
+.first div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px; */
+    width: 550px;
+}
+
+.first div> :nth-child(1) {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+}
+
+.first div> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.line {
+    height: 5px;
+    background-color: rgb(49, 46, 46);
+    margin: 58px 0px;
+
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px; */
+    width: 630px;
+}
+
+.second div> :nth-child(1) {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+}
+
+.second div> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Img2 {
+    position: relative;
+}
+
+.Img2 img {
+    width: 40vw;
+
+    /* padding: 0px; */
+    position: relative;
+    z-index: 10;
+
+}
+
+.Img2 video {
+    height: 213px;
+    position: absolute;
+    top: 53px;
+    right: 0;
+    left: 115px;
+
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px; */
+    width: 630px;
+}
+
+.third div> :nth-child(1) {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+}
+
+.third div> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.kids img {
+    margin-left: 21px;
+}
+
+.faqSec {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.faqSec h1 {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.faqbox {
+    margin: auto;
+    background-color: rgb(45 45 45);
+    max-width: 70vw;
+    color: white;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+
+}
+
+.faqbox:hover {
+    background-color: rgb(66, 66, 66);
+}
+
+.faq_question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+}
+
+.faqSec {
+    font-family: sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+.faqbox img {
+    filter: invert(1);
+    width: 24px;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 15px;
+    font-size: 26px;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1.4;
+}
+
+.faqbox.active .faq-answer {
+    display: block;
+}
+
+footer {
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    padding: 0px 0px 70px;
+}
+
+footer .question {
+    padding: 20px 0;
+    font-family: sans-serif;
+
+}
+
+footer .question a {
+    color: white;
+
+}
+
+footer span {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 120px;
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin-bottom: 25px;
+
+}
+
+.footer-item a {
+    color: white;
+    padding: 13px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:768px) {
+
+
+    .main {
+        background-image: url("/assest/images/background_img.jpg");
+        height: 60vh;
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(1400px, 100vw);
+
+
+    }
+
+    .main .box {
+        height: 60vh;
+        width: 100%;
+        background-color: black;
+        opacity: 0.64;
+        position: absolute;
+        top: 0;
+    }
+
+    nav {
+        max-width: 95vw;
+        padding: 0 10px;
+    }
+
+    nav img {
+        width: 92px;
+    }
+
+    .hero {
+        margin-top: 100px;
+        gap: 8px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+
+    }
+
+    .hero> :nth-child(2),
+    .hero> :nth-child(3) {
+        font-size: 16px;
+    }
+
+    .starter {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .starter input {
+        width: 115%;
+        font-size: 16px;
+    }
+
+    .btn-red-sm {
+        width: 64%;
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+    .btn-red {
+
+        margin-left: 6px;
+        width: 80px;
+    }
+
+    .container {
+        margin-top: 68px;
+        padding: 6px;
+        width: 100%;
+    }
+
+    .container .sec {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .line {
+        margin: 58px 28px;
+    }
+
+    .first,
+    .second,
+    .third {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        font-size: 42px;
+        margin-top: 80px;
+    }
+
+    .first div,
+    .second div,
+    .third div {
+        width: 90%;
+    }
+
+    .first div> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .first div> :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .second div> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .second div> :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .third div> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .third div> :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .Img img,
+    .Img2 img {
+        width: 90%;
+    }
+
+    .Img video {
+        top: 18%;
+        left: 12%;
+        width: 66%;
+        height: 58%;
+
+    }
+
+    .Img2 video {
+        top: 4%;
+        left: 18%;
+        width: 54%;
+        height: 58%;
+
+    }
+
+    .kids img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .faqbox {
+        max-width: 74vw;
+
+    }
+
+    .faq_question {
+        font-size: 16px;
+    }
+
+    .faq-answer {
+        font-size: 16px;
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+
+    .footer-item {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .faqSec h1 {
+
+        font-size: 37px;
+
+    }
+}
