@@ -188,6 +188,53 @@
         color: white;
 
     }
+
+
+    @media (max-width:768px) {
+
+
+        .main {
+            background: black;
+        }
+
+        section {
+            padding: 11px;
+            max-width: 84%;
+        }
+
+        footer {
+            padding: 22px 25px;
+        }
+
+        footer .footer-quary {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            
+        }
+
+        footer .footer-quary a {
+            font-size: 12xp;
+
+        }
+
+        footer .question-quary {
+            padding: 15px 0px;
+
+        }
+
+        footer .footer-quary .item a {
+            font-size: 14px;
+        }
+
+        .line2 {
+            margin-top: 50px;
+            height: 2px;
+            width: 100%;
+            background-color: rgb(78, 77, 77);
+        }
+
+    }
 </style>
 
 <body>
@@ -227,7 +274,7 @@
             </form>
 
         </section>
-
+        <div class="line2"></div>
         <footer>
             <div class="question-quary">
                 Questions? <a href="call">Call 1-844-505-2993</a>
@@ -260,12 +307,9 @@
         </footer>
 
 
-        </footer>
+
     </div>
-
-
     <script src="script.js"></script>
-
 </body>
 
 </html>
